@@ -1,5 +1,6 @@
 import subprocess
 import paramiko
+
 def ssh_checkout(host, user, passwd, cmd, text='', port=22):
     client = paramiko.SSHClient()
     client.set_missing_host_key_policy(paramiko.AutoAddPolicy())
@@ -12,6 +13,7 @@ def ssh_checkout(host, user, passwd, cmd, text='', port=22):
         return True
     else:
         return False
+    
 def upload_file(host, user, passwd, local_path, remote_path, port=22):
     transport = paramiko.Transport((host, port))
     transport.connect(None, username=user, password=passwd)
@@ -21,5 +23,6 @@ def upload_file(host, user, passwd, local_path, remote_path, port=22):
         sftp.close()
     if transport:
         transport.close()
+        
 def getout(cmd):
     return subprocess.run(cmd, shell=True, stdout=subprocess.PIPE, encoding='utf-8').stdout

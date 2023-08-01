@@ -7,6 +7,7 @@ FOLDER_TST = data['FOLDER_TST']
 FOLDER_OUT = data['FOLDER_OUT']
 FOLDER_folder1 = data['FOLDER_folder1']
 FOLDER_folder2 = data['FOLDER_folder2']
+
 def save_log(starttime, name):
     with open(name, 'w') as f:
         f.write(getout("journalctl --since '{}'".format(starttime)))
