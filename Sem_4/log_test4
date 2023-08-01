@@ -1,0 +1,16 @@
+авг 01 18:48:59 nk-VirtualBox sshd[25503]: Accepted password for user2 from 127.0.0.1 port 46488 ssh2
+авг 01 18:48:59 nk-VirtualBox sshd[25503]: pam_unix(sshd:session): session opened for user user2(uid=1001) by (uid=0)
+авг 01 18:48:59 nk-VirtualBox systemd-logind[799]: New session 324 of user user2.
+авг 01 18:48:59 nk-VirtualBox systemd[1]: Started Session 324 of User user2.
+авг 01 18:48:59 nk-VirtualBox sshd[25503]: pam_unix(sshd:session): session closed for user user2
+авг 01 18:48:59 nk-VirtualBox systemd[1]: session-324.scope: Deactivated successfully.
+авг 01 18:48:59 nk-VirtualBox systemd-logind[799]: Session 324 logged out. Waiting for processes to exit.
+авг 01 18:48:59 nk-VirtualBox systemd-logind[799]: Removed session 324.
+авг 01 18:48:59 nk-VirtualBox sshd[25546]: Accepted password for user2 from 127.0.0.1 port 46492 ssh2
+авг 01 18:48:59 nk-VirtualBox sshd[25546]: pam_unix(sshd:session): session opened for user user2(uid=1001) by (uid=0)
+авг 01 18:48:59 nk-VirtualBox systemd-logind[799]: New session 325 of user user2.
+авг 01 18:48:59 nk-VirtualBox systemd[1]: Started Session 325 of User user2.
+авг 01 18:48:59 nk-VirtualBox sshd[25546]: pam_unix(sshd:session): session closed for user user2
+авг 01 18:48:59 nk-VirtualBox systemd[1]: session-325.scope: Deactivated successfully.
+авг 01 18:48:59 nk-VirtualBox systemd-logind[799]: Session 325 logged out. Waiting for processes to exit.
+авг 01 18:48:59 nk-VirtualBox systemd-logind[799]: Removed session 325.

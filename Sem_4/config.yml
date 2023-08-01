@@ -1,0 +1,11 @@
+FOLDER_TST: /home/user2/tst
+FOLDER_OUT: /home/user2/out
+FOLDER_folder1: /home/user2/folder1
+FOLDER_folder2: /home/user2/folder2
+count: 5
+size: 2M
+ip: 0.0.0.0
+user: user2
+passwd: "qwerty28"
+
+
